@@ -1,7 +1,10 @@
+import Hello from "./hello"
+
 function App(){
 
-  return(
-    <hi> Project with Mukim</hi>
+
+  return(              // if you wanna import more item wirte in <div> or <> <>[f rahment]
+    <Hello/>
   )
 }
 
