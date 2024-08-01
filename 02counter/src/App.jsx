@@ -11,8 +11,12 @@ function App() {
 
   const addValue =() =>{
     console.log("clicked", Counter);
-    Counter = Counter + 1
-    setCounter(Counter +1)
+  
+   // Counter = Counter + 1
+    setCounter(prevCounter =>Counter +1)
+    setCounter(prevCounter =>Counter +1)
+    setCounter(prevCounter =>Counter +1)
+    setCounter(prevCounter =>Counter +1)
   }
     const removeValue = () => {
        setCounter (Counter - 1)
